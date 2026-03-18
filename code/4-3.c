@@ -6,11 +6,11 @@ int main()
     scanf("%d", &a);
     for(int i = 2; i < a; i++)
     {
-        if(a % i == 0)
-        {
+        if(a == 1){
             printf("false");
-        }else
-        {
+        }else if(a % i == 0){
+            printf("false");
+        }else{
             printf("true");
         }
     }
