@@ -13,3 +13,19 @@ int main()
     printf("%d %d %d\n", a, b, c);
     return 0;
 }
+/*3-5
+#include <stdio.h>
+
+int main()
+{
+    int a = 32;
+    int b = 156;
+
+    a = a ^ b;
+    b = a ^ b;// b = (a ^ b) ^ b = a
+    a = a ^ b;// a = (a ^ b) ^ a = b
+
+    printf("%d %d\n", a, b);
+    return 0;
+}
+*/
