@@ -2,7 +2,17 @@
 
 int main()
 {
-
+    int a;
+    scanf("%d", &a);
+    for(int i = 2; i < a; i++)
+    {
+        if(a % i == 0)
+        {
+            printf("false");
+        }else
+        {
+            printf("true");
+        }
+    }
     return 0;
 }
-
